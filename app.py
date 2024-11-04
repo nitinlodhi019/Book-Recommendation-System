@@ -15,6 +15,7 @@ def index():
                            book_name=list(popular_df['Book-Title'].values),
                            author=list(popular_df['Book-Author'].values),
                            image=list(popular_df['Image-URL-M'].values),
+                           rating=list(popular_df['Book-Rating'].values)
                            )
 
 @app.route('/recommend')
