@@ -82,7 +82,7 @@
         }
 
         .book-card:hover {
-            transform: scale(1.05); 
+            transform: scale(1.05);
         }
 
         .book-card img {
@@ -131,6 +131,7 @@
                     <div class="book-info">
                         <p class="book-title">{{ book_name[i] }}</p>
                         <p class="book-details">{{ author[i] }}</p>
+                        <p class="text-white">Rating - {{ rating[i] }}</p>
                     </div>
                 </div>
             {% endfor %}
